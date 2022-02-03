@@ -1,26 +1,37 @@
-/* Please make the h1 30px, with a little padding on the left, and thin red border */
-h1{
-    font-size: 30px;
-    padding-left: 3px;
-    border: 3px solid red;
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
 }
-/* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
-h2{
-    font-size: 25px;
-    padding: 15px 0;
-    border:3px solid gold;
-    margin: 20px 0;
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
-/* Please make the spans have a thin black border, a little padding, and blue */
-span{
-    border:1px solid black;
-    padding: 1px;
-    color: blue;
+
+.clear {
+	clear: both;
 }
-/* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
-section{
-    width: 25%;
-    height: 200px;
-    margin: 0 auto;
-    border: 1px solid  purple;
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
 }
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
