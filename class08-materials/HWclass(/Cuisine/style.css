@@ -1,0 +1,103 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+html{
+     font-size: 100%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+header{
+    height: 30rem;
+    width: 100%;
+    background-image: url(../Cuisine/casidone2.jpg);
+}
+header nav{
+    float:left;
+    height: 3rem;
+    width: 100%;
+}
+header nav>img{
+    float:left;
+    padding-top: 16px;
+    color:black;
+}
+header nav ul{
+    float: right;
+    list-style: none;
+    width: 36%;
+    padding: 0;
+
+
+}
+
+header nav ul li{
+    float:left;
+    padding-right: 9px;
+
+}
+
+header nav ul li a{
+color:black;
+border-bottom: none;
+text-decoration: none;
+}
+
+header>ul>li{
+    float:left;
+    padding-right: 8px;
+    list-style: none;
+
+}
+
+header>ul>li>a{
+    text-decoration: none;
+    color:black;
+}
+label>a{
+    text-decoration: none;
+    color:black;
+}
+header>img{
+    float:left;
+    padding-top: 16px;
+    color:black;
+}
+h1{
+    padding-left:40px;
+    font-size:45px;
+    width: 30%;
+    margin: 0;
+    color: black;
+    padding-top: 5%;
+}
+form{
+    padding-left: 40px;
+    padding-top:15px;
+
+}
+#zebra{
+
+    width: 250px;
+    height:30px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,114 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+* { margin: 0; padding: 0; }
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+    height:55px;
+    background:#677B8C ;
+    color:white;
+    padding: 0;
+
+}
+nav *{
+    float:left;
+    width: 20%;
+    color:white;
+    display: block;
+}
+
+header nav ul {
+    margin: 10px 0;
+    padding: 5px 0 5px 3px;
+    width: 15%;
+}
+ul li>a{
+    width:fit-content;
+}
+
+header img{
+    width: 40%;
+    align-items: center;
+    margin: 15px 10px 0 500px;
+    
+
+}
+header>a{
+    width: 40;
+    float:right;
+    margin: 15px 10px 0 5px;
+    color:white;
+}
+section{
+    width: 100%;
+    background:#677B8C ;
+    color:white;
+    border:#677B8C;
+    height: 400px;
+
+}
+.whiteone{
+    color:black;
+    background: white;
+    height:250px;
+}
+.winwin{
+    width: 50%;
+    float:left;
+    background: lightgray;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background-color:#677B8C ;
+    margin: 5px 200px;
+
+}
+.volunteer{
+    background: white;
+    color:black;
+
+}
+footer{
+    height: 300px;
+    background-color:#152238 ;
+}
+br{
+    border:black;
+}
+footer li{
+    color:white;
+    list-style: none;
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
