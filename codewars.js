@@ -24,6 +24,19 @@
 //palindromeCheck('racecar')
 
 
-let filter_list = l => l.filter(str => typeof str != 'string')
+//let filter_list = l => l.filter(str => typeof str != 'string')
 
-console.log(filter_list([1,2,'a','b']))
+//console.log(filter_list([1,2,'a','b']))
+
+// const isIsogram = str => str.split("").length() === str.split("").from(new Set(str.split("")).length()) ? true : false
+
+// console.log(isIsogram("federico"))
+
+// alert(str.split("federico").length())
+
+// const isIsogram = str => !str.match(/(.).*\1/i);
+
+// alert(isIsogram("feda"))
+
+let str = "tereret"
+let newStr = console.log(str.match(/(.).*\1/i))
